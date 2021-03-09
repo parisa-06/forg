@@ -36,7 +36,7 @@ function myFunction(lenght_home, number_waterWell, number_jump) {
             (i--)
         document.getElementById("demo1").innerHTML = home;
     }
-    for (j = 0; k <= number_jump; j = j + 4) {
+    for (j = 0; k <= number_jump + 1; j = j + 4) {
         if (home[j] != "waterWell") {
             jump[p] = j;
             document.getElementById("demo3").innerHTML = jump;
